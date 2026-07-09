@@ -25,6 +25,7 @@ The project is designed to run on a single physical machine using multiple virtu
 ## VM 3: Intelligence/Response/SOAR Stack
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
+| 1 | Docker | Complete | [View Docs](./Wazuh-Indexer/README.md) |
 | 1 | Shuffle SOAR | Completed | [View Docs](./Wazuh-Indexer/README.md) |
 | 2 | The Hive | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
 | 3 | Veloceraptor Server | Completed | [View Docs](./Wazuh-Manager/README.md) |
