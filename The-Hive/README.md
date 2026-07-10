@@ -282,6 +282,14 @@ Shuffle created TheHive alert
 Alert appeared in OmarSOC alert queue
 ```
 
+## Final Simple Workflow Diagram in Shuffle
+
+![Workflow](./FinalWorkflow.png)
+
+## Resulting Alert in the Hive from Testing Fail SSH login Attempt
+
+![Positive Results](./PositiveResult.png)
+
 ## Lab Status
 
 TheHive is installed, accessible, and integrated with Shuffle.
