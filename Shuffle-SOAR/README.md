@@ -14,85 +14,39 @@ Shuffle will receive Wazuh alerts through webhooks, process the alert data, perf
 * Installed Docker Compose
 * Cloned the Shuffle repository
 * Started the Shuffle stack
-* Verified that Docker created a persistent Shuffle database volume
 * Routed Wazuh Stack Logs into Shuffle using Python Script
 * Added additional configuration to ossec/yml
-* Identified the Shuffle health-check container
-* Reviewed container logs during troubleshooting
-
-
+* Connected both Wazuh Stack Log pipline to Shuffle Via Webhook
+* Opened Shuffle UI to configure New Log Pipline Test
+* Ran a simple SSH Failed log in Attempt to Test Shuffle Output
 
 ## Issues Faced
 
-The initial Shuffle deployment only showed the health-check container as running.
-
-The main Shuffle containers, including the frontend, backend, OpenSearch, and Orborus, were not immediately visible in the running container list.
-
-This required checking all containers using:
-
-```bash
-sudo docker ps -a
-```
-
-instead of only:
-
-```bash
-sudo docker ps
-```
+* Resourse Restriction and Limitation: was not able to configure both Shuffle and The Hive within a single VM
 
 ## Fixes Applied
 
-* Corrected the Docker command typo
-* Used `docker ps -a` to display stopped and failed containers
-* Used `docker compose ps` to check the entire Shuffle stack
-* Used `docker compose logs` to identify startup errors
-* Verified that Docker itself was running correctly
-* Confirmed that the Shuffle database volume was created
-* Avoided deleting Docker volumes until their purpose was confirmed
+Moved Shuffle to a new VM Dedicated to its servies alone
 
 ## Verification
 
-Checked the Docker service status using:
+Had setup the new VM and ensured that it was configured in a Bridged Adaptor in order for it to be accessible to the Local Network
 
-```bash
-sudo systemctl status docker
-```
+![Pinged VM](./PingedVM.png)
 
-Checked running Shuffle containers using:
+Downloaded Shuffle and configured it all into a Docker container or Docker Compose as a standard setup
 
-```bash
-sudo docker ps
-```
+![Git Shuffle](./GITSHUFFLE.png)
 
-Checked all containers, including stopped containers, using:
+![Docker Compose](./Dockerup.png)
 
-```bash
-sudo docker ps -a
-```
+![Docker Compose](./Dockerps.png)
 
-Checked Shuffle Compose services using:
+## Shuffle UI
 
-```bash
-sudo docker compose ps
-```
+![Shuffle](./ShuffleUI.png)
 
-Checked the created Docker volumes using:
 
-```bash
-sudo docker volume ls
-```
-
-Confirmed that the following volume was created:
-
-```text
-shuffle_shuffle-database
-```
-
-Reviewed Shuffle logs using:
-
-```bash
-sudo docker compose logs
-```
 
 ## What I Learned
 
