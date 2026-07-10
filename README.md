@@ -9,32 +9,28 @@ The project is designed to run on a single physical machine using multiple virtu
 ## VM 1: Linux Endpoint
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
-| 1 | Wazuh Agent | Completed | [View Docs](./Wazuh-Indexer/README.md) |
+| 1 | Wazuh Agent | Completed | [View Docs](https://github.com/NosferatuUnitOne/Blue-Team-SOC-Lab/blob/main/Wazuh-Agents/README.md) |
 | 2 | Velociraptor Client | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
-| 3 | Packetbeat | Completed | [View Docs](./Wazuh-Manager/README.md) |
 
 ## VM 2: Wazuh Stack
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
-| 1 | Wazuh Indexer | Completed | [View Docs](./Wazuh-Indexer/README.md) |
-| 2 | Wazuh Dashboard | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
-| 3 | Wazuh Manager | Completed | [View Docs](./Wazuh-Manager/README.md) |
-| 4 | Filebeat | Completed | [View Docs](./Filebeat/README.md) |
-| 5 | Wazuh Agents | Completed | [View Docs](./Wazuh-Agents/README.md)
+| 1 | Wazuh Indexer | Completed | [View Docs](https://github.com/NosferatuUnitOne/Blue-Team-SOC-Lab/blob/main/Wazuh-Indexer/README.md) |
+| 2 | Wazuh Dashboard | Completed | [View Docs](https://github.com/NosferatuUnitOne/Blue-Team-SOC-Lab/blob/main/Wazuh-Dashboard/README.md) |
+| 3 | Wazuh Manager | Completed | [View Docs](https://github.com/NosferatuUnitOne/Blue-Team-SOC-Lab/blob/main/Wazuh-Manager/README.md) |
+| 4 | Filebeat | Completed | [View Docs](https://github.com/NosferatuUnitOne/Blue-Team-SOC-Lab/blob/main/Filebeat/README.md) |
 
 ## VM 3: Intelligence/Response/SOAR Stack
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
-| 1 | Docker | Complete | [View Docs](./Wazuh-Indexer/README.md) |
-| 1 | Shuffle SOAR | Completed | [View Docs](./Wazuh-Indexer/README.md) |
-| 2 | The Hive | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
-| 3 | Veloceraptor Server | Completed | [View Docs](./Wazuh-Manager/README.md) |
+| 1 | Docker | Complete | [View Docs](./Docker/README.md) |
+| 1 | Shuffle SOAR | Completed | [View Docs](./Shuffle-SOAR/README.md) |
 
 ## VM 4: Case Ticketing and Evidence Collection/Response
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
-| 2 | The Hive | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
-| 3 | Veloceraptor Server | Completed | [View Docs](./Wazuh-Manager/README.md) |
+| 2 | The Hive | Completed | [View Docs](./The-Hive/README.md) |
+| 3 | Veloceraptor Server | Completed | [View Docs](./Veloceraptor/README.md) |
 
 ## Architecture
 
