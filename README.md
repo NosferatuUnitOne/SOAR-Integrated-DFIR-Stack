@@ -34,4 +34,6 @@ The project is designed to run on a single physical machine using multiple virtu
 
 ## Architecture
 
+![Architecture](./DFIR.png)
+
 Linux Endpoint → Wazuh → Shuffle → Threat Intelligence → TheHive → Velociraptor / Active Response
