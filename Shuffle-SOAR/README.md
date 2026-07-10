@@ -13,12 +13,10 @@ Shuffle will receive Wazuh alerts through webhooks, process the alert data, perf
 * Installed Docker Engine
 * Installed Docker Compose
 * Cloned the Shuffle repository
-* Started the Shuffle stack using Docker Compose
-* Verified that Shuffle containers were created
-* Checked running containers using `docker ps`
-* Checked all containers using `docker ps -a`
+* Started the Shuffle stack
 * Verified that Docker created a persistent Shuffle database volume
-* Checked the Docker Compose service status
+* Routed Wazuh Stack Logs into Shuffle using Python Script
+* Added additional configuration to ossec/yml
 * Identified the Shuffle health-check container
 * Reviewed container logs during troubleshooting
 
