@@ -68,9 +68,5 @@ Attempting Multiple Failed SSH logins to Proc Webhook and Parse Log data from Wa
 
 ## Current Status
 
-Shuffle has been deployed using Docker Compose.
-
-The Docker service, Shuffle health-check container, and persistent database volume have been verified.
-
-The remaining work is to confirm that all Shuffle services are healthy, access the web interface, create the administrator account, and configure the Wazuh webhook workflow.
+Shuffle is green lit in the entire SOC Architecture 
 
