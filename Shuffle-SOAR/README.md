@@ -46,59 +46,25 @@ Downloaded Shuffle and configured it all into a Docker container or Docker Compo
 
 ![Shuffle](./ShuffleUI.png)
 
+## Testing Webhook Trigger From Wazuh Stack VM
 
+![Webhook](./TestingWebhoot.png)
+
+![Webhook Result](./FirstTest.png)
+
+## Sample Case
+
+Attempting Multiple Failed SSH logins to Proc Webhook and Parse Log data from Wazuh to Shuffle Pipline
+
+![SSH Attack Test](./SSHAttackTest.png)
+![Attack Result](./AttackResult.png)
 
 ## What I Learned
 
 * How Docker Compose manages several containers as one application stack
-* The difference between `docker ps` and `docker ps -a`
-* Why a container showing as running does not always mean the complete application is functional
-* How Docker volumes preserve application data
-* How container logs are used to troubleshoot failed services
 * Why Shuffle is deployed separately from the Wazuh Manager
 * How Shuffle will act as the connection between Wazuh, threat intelligence, TheHive, and Velociraptor
-
-## Installing Docker and Docker Compose
-
-Installed Docker and verified that the Docker service was running.
-
-## Cloning and Starting Shuffle
-
-Cloned the Shuffle repository and started the deployment using:
-
-```bash
-sudo docker compose up -d
-```
-
-## Checking Shuffle Containers
-
-Checked running containers using:
-
-```bash
-sudo docker ps
-```
-
-Checked failed and stopped containers using:
-
-```bash
-sudo docker ps -a
-```
-
-## Checking Docker Volumes
-
-Verified that Shuffle persistent storage was created using:
-
-```bash
-sudo docker volume ls
-```
-
-## Reviewing Shuffle Logs
-
-Reviewed container startup and error messages using:
-
-```bash
-sudo docker compose logs
-```
+* How to to automate a Proper Log pipline with Shuffle
 
 ## Current Status
 
