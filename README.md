@@ -10,7 +10,7 @@ The project is designed to run on a single physical machine using multiple virtu
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
 | 1 | Wazuh Agent | Completed | [View Docs](https://github.com/NosferatuUnitOne/Blue-Team-SOC-Lab/blob/main/Wazuh-Agents/README.md) |
-| 2 | Velociraptor Client | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
+| 2 | Velociraptor Client | Completed | [View Docs](./Veloceraptor-Client/README.md) |
 
 ## VM 2: Wazuh Stack
 | Phase | Component | Status | Documentation |
