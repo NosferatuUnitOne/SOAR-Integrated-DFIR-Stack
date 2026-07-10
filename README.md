@@ -30,6 +30,12 @@ The project is designed to run on a single physical machine using multiple virtu
 | 2 | The Hive | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
 | 3 | Veloceraptor Server | Completed | [View Docs](./Wazuh-Manager/README.md) |
 
+## VM 4: Case Ticketing and Evidence Collection/Response
+| Phase | Component | Status | Documentation |
+|---|---|---|---|
+| 2 | The Hive | Completed | [View Docs](./Wazuh-Dashboard/README.md) |
+| 3 | Veloceraptor Server | Completed | [View Docs](./Wazuh-Manager/README.md) |
+
 ## Architecture
 
 Linux Endpoint → Wazuh → Shuffle → Threat Intelligence → TheHive → Velociraptor / Active Response
