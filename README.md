@@ -30,7 +30,7 @@ The project is designed to run on a single physical machine using multiple virtu
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
 | 2 | The Hive | Completed | [View Docs](./The-Hive/README.md) |
-| 3 | Veloceraptor Server | Completed | [View Docs](./Veloceraptor/README.md) |
+| 3 | Veloceraptor Server | Completed | [View Docs](./Veloceraptor-Server/README.md) |
 
 ## Architecture
 
