@@ -1,4 +1,4 @@
-# SOAR-Integrated EDR-Style SOC Stack
+# SOAR-Integrated DFIR SOC Stack
 
 This project extends my previous Wazuh Blue Team SOC Lab into a SOAR-integrated EDR-style detection and response pipeline.
 
