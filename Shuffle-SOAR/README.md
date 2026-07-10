@@ -1,4 +1,4 @@
-# Phase 1: Shuffle SOAR Setup
+# Shuffle SOAR Setup
 
 ## Goal
 
@@ -20,6 +20,8 @@ Shuffle will receive Wazuh alerts through webhooks, process the alert data, perf
 * Identified the Shuffle health-check container
 * Reviewed container logs during troubleshooting
 
+
+
 ## Issues Faced
 
 The initial Shuffle deployment only showed the health-check container as running.
@@ -36,18 +38,6 @@ instead of only:
 
 ```bash
 sudo docker ps
-```
-
-Another minor issue was entering the incorrect command:
-
-```bash
-docker psd
-```
-
-The correct command was:
-
-```bash
-docker ps
 ```
 
 ## Fixes Applied
