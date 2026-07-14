@@ -23,7 +23,7 @@ The project is designed to run on a single physical machine using multiple virtu
 ## VM 3: Intelligence/Response/SOAR Stack
 | Phase | Component | Status | Documentation |
 |---|---|---|---|
-| 1 | Docker | Complete | [View Docs](./Docker/README.md) |
+| 1 | Docker | Completed | [View Docs](./Docker/README.md) |
 | 1 | Shuffle SOAR | Completed | [View Docs](./Shuffle-SOAR/README.md) |
 
 ## VM 4: Case Ticketing and Evidence Collection/Response
